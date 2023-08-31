@@ -1,3 +1,39 @@
+ .\Windows.Media.Ocr.Cli.exe .\R\师门_任务识别1.bmp
+
+pip3 install -r requirements.txt -i    https://mirrors.aliyun.com/pypi/simple/
+
+python backend/main.py 
+
+ERROR: Could not find a version that satisfies the requirement opencv_python==4.3.0.36 (from versions: 3.4.0.14, 3.4.10.37, 3.4.11.39, 3.4.11.41, 3.4.11.43, 3.4.11.45, 3.4.13.47, 3.4.15.55, 3.4.16.57, 3.4.16.59, 3.4.17.61, 3.4.17.63, 3.4.18.65, 4.3.0.38, 4.4.0.40, 4.4.0.42, 4.4.0.44, 4.4.0.46, 4.5.1.48, 4.5.3.56, 4.5.4.58, 4.5.4.60, 4.5.5.62, 4.5.5.64, 4.6.0.66, 4.7.0.68, 4.7.0.72, 4.8.0.74)  
+ERROR: No matching distribution found for opencv_python==4.3.0.36
+
+requirement
+tornado==5.1.1
+numpy==1.19.1
+opencv_python==4.3.0.36
+onnxruntime==1.4.0
+Shapely==1.7.0
+pyclipper==1.2.0
+Pillow==7.2.0
+
+
+
+pip3 freeze > requirements.txt
+
+contourpy==1.1.0
+cycler==0.11.0
+fonttools==4.41.1
+kiwisolver==1.4.4
+matplotlib==3.7.2
+numpy==1.25.1
+packaging==23.1
+Pillow==10.0.0
+pyparsing==3.0.9
+python-dateutil==2.8.2
+scipy==1.11.1
+six==1.16.0
+
+
 # chineseocr_lite 的 onnx 推理, 部署简单
 
 ## 原始项目分支（torch推理，ncnn推理等）：[master](https://github.com/ouyanghuiyu/chineseocr_lite/tree/master)
