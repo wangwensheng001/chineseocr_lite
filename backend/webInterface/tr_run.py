@@ -107,8 +107,9 @@ class TrRun(tornado.web.RequestHandler):
         if remote_ip_now not in request_time :
             request_time[remote_ip_now] = 1 
         elif request_time[remote_ip_now] > max_post_time -1 and remote_ip_now not in white_ips  :
-            res.append("今天访问次数超过{}次！".format(max_post_time))
-            do_det = False
+            # res.append("今天访问次数超过{}次！".format(max_post_time))
+            # do_det = False
+            do_det = True
         else:
             request_time[remote_ip_now] += 1
 
